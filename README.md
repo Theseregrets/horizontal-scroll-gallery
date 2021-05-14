@@ -1,9 +1,6 @@
-
-
 This project is bootstrapped by gatsby
 
 To run this started use
 `npm i` - to install dependencies
 `npm start` - to start local dev server
-
-courtesy to web dev 
+courtesy to Web Unlocked tutorials
