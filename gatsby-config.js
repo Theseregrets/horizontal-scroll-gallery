@@ -18,4 +18,5 @@ module.exports = {
       },
     },
   ],
-}
+  pathPrefix: "/horizontal-scroll-gallery",
+};
