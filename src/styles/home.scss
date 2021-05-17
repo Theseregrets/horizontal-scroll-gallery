@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+.home {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main-container {
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(50, 2%);
+  grid-template-rows: repeat(50, 2%);
+  width: 300vw;
+  padding-left: 12vw;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  background: white;
+}
+
+.gallery-helper {
+  grid-area: 43/1 / span 2 / span 1;
+  font-size: 20px;
+}
+
+.behind-text {
+  font-family: "Cinzel Decorative", cursive;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 50px;
+
+  &.fill {
+    color: rgba($color: #000000, $alpha: 0.2);
+  }
+  &.outline {
+    z-index: 2;
+    mix-blend-mode: overlay;
+  }
+}
